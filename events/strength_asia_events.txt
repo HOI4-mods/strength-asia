@@ -1,0 +1,10 @@
+add_namespace = strength_asia
+country_event = {
+   id = strength_asia.1
+   hidden = yes
+   is_triggered_only = yes
+
+   immediate = {
+       add_ideas = strength_asia
+   }
+}
