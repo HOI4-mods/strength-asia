@@ -4,11 +4,12 @@ on_actions = {
             every_country = {
                 limit = {
                     OR = {
-                        tag = CHI
-                        tag = JAP
-                        tag = RAJ
+                        original_tag  = CHI
+                        original_tag  = JAP
+                        original_tag  = RAJ
                     }
                 }
+
                 country_event = { id = strength_asia.1 }
             }
 			RAJ = {
